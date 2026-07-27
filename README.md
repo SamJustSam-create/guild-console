@@ -2,16 +2,16 @@
 
 **A modern Discord community management toolkit** - a growing collection of browser-side tools that simplify server administration and automate repetitive tasks, delivered as a single Tampermonkey userscript.
 
-> ⚠️ **Early stage.** guild-console is being built one feature at a time. Today it ships a single tool: **one-click "enable all permissions" for a role.** The broader platform (members, applications, moderation, events, analytics) is on the [roadmap](#roadmap) - not built yet.
+>  **Early stage.** guild-console is being built one feature at a time. Today it ships a single tool: **one-click "enable all permissions" for a role.** The broader platform (members, applications, moderation, events, analytics) is on the [roadmap](#roadmap) - not built yet.
 
 ---
 
 ## Current features
 
-### 🔓 Enable all permissions
+### Enable all permissions
 Adds a floating **Enable all permissions** button to Discord. On a role's **Permissions** tab it flips every permission toggle to **ON** in one click. You still review and click Discord's own **Save Changes** bar - the script never saves for you.
 
-### 🩺 Diagnose
+### Diagnose
 A companion **Diagnose** button that reports which toggle elements it can see on the page and copies the details to your clipboard. Handy when Discord changes its layout and the main button stops finding toggles.
 
 ---
@@ -55,12 +55,9 @@ The script injects its buttons and keeps them alive across Discord's single-page
 
 Planned guild-console tools (not yet implemented):
 
-- [ ] Member management dashboard
-- [ ] Bulk role assignment
-- [ ] Application / onboarding review
-- [ ] Moderation shortcuts
-- [ ] Event management
-- [ ] Server analytics
+- [ ] Server-baser role profiles (permissions, colour etc)
+- [ ] Ezy Channel Duplication (Voice Channels, Text Channels, Forums)
+- [ ] Ez Category Duplication (Permissions)
 
 ---
 
