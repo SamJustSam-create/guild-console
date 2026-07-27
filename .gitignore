@@ -8,3 +8,7 @@ desktop.ini
 .idea/
 *.swp
 *~
+
+# Local source artwork — the launcher icon is embedded in the userscript,
+# so the full-size master doesn't need to live in the repo.
+icon.png
